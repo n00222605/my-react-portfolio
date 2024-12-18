@@ -1,0 +1,52 @@
+/* Card Container */
+.project-card {
+    max-width: 345px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    margin: 16px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+/* Title Section */
+.project-title {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease-in-out;
+}
+
+.project-link:hover {
+    color: #1976d2;
+    /* MUI primary color */
+}
+
+/* Technologies Label */
+.project-tech-label {
+    margin-bottom: 8px;
+    font-size: 0.875rem;
+    color: #555;
+}
+
+/* Chip Stack */
+.project-tech-stack {
+    margin-bottom: 12px;
+}
+
+.project-chip {
+    font-size: 0.75rem;
+}
+
+/* Button */
+.project-button {
+    color: #1976d2;
+    /* MUI primary color */
+    font-weight: bold;
+}

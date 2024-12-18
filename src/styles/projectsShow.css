@@ -1,0 +1,85 @@
+/* projectsShow.css */
+
+/* Set the background color for the entire page */
+.layout-container {
+    background-color: #f22b61;
+    /* Same background color as the rest of the app */
+    padding-bottom: 2rem;
+    /* Padding for bottom spacing */
+    min-height: 100vh;
+    /* Ensure the container takes up the full viewport */
+}
+
+/* Flex container to wrap image and content */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    /* Spacing between image and content */
+    padding: 0 2rem;
+    /* Padding for content */
+}
+
+/* Image Section */
+.image-section {
+    flex: 1 1 40%;
+    /* Image section takes 40% of the width */
+    max-width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+/* Content Section */
+.content-section {
+    flex: 1 1 55%;
+    /* Content section takes 55% of the width */
+    max-width: 55%;
+    color: black;
+}
+
+/* Title */
+.content-section .MuiTypography-h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+/* Description */
+.content-section .MuiTypography-body2 {
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+/* Technologies section */
+.content-section .MuiTypography-subtitle1 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.content-section .MuiStack-root {
+    margin-top: 0.5rem;
+    padding-bottom: 50px;
+}
+
+.content-section .MuiChip-root {
+    margin-right: 5px;
+    
+}
+
+/* Button styling */
+.content-section .MuiButton-contained {
+    margin-top: 1rem;
+}
+
+/* Back Button */
+.MuiIconButton-root {
+    font-size: 2rem;
+    margin-top: 1rem;
+    /* Instead of margin-bottom */
+}

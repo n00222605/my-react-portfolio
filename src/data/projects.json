@@ -1,0 +1,111 @@
+[
+    {
+        "slug": "react-todo-app",
+        "title": "React Todo App",
+        "description": "This is my first React application, I used localStorage to store my todo items",
+        "categories": [
+            "Front-End Development"
+        ],
+        "technologies": [
+            "React.js",
+            "Bootstrap CSS"
+        ],
+        "images": [
+            {
+                "caption": "SS1",
+                "url": "/images/ccImage.jpg"
+            }
+        ],
+        "links": [
+            {
+                "title": "website",
+                "url": "https://react-todo.web.app"
+            }
+        ],
+        "date": "2024",
+        "github": "https://github.com"
+    },
+    {
+        "slug": "react-giphy",
+        "title": "React Giphy App",
+        "description": "This is my first application that connects to an API",
+        "categories": [
+            "Front-End Development"
+        ],
+        "technologies": [
+            "React.js",
+            "Bootstrap CSS",
+            "Axios",
+            "API's"
+        ],
+        "images": [
+            {
+                "caption": "SS1",
+                "url": "/images/ccImage.jpg"
+            }
+        ],
+        "links": [
+            {
+                "title": "website",
+                "url": "https://react-giphy.web.app"
+            }
+        ],
+        "date": "2024",
+        "github": "https://github.com"
+    },
+    {
+        "slug": "clinic-api",
+        "title": "Front-End for Clinic API",
+        "description": "This applications connects a clinic api to a designed front end.",
+        "categories": [
+            "Front-End Development"
+        ],
+        "technologies": [
+            "React.js",
+            "Axios",
+            "API's"
+        ],
+        "images": [
+            {
+                "caption": "SS1",
+                "url": "/images/ccImage.jpg"
+            }
+        ],
+        "links": [
+            {
+                "title": "website",
+                "url": "https://react-giphy.web.app"
+            }
+        ],
+        "date": "2024",
+        "github": "https://github.com/n00222605/fe-clinic"
+    },
+    {
+        "slug": "rest-countries",
+        "title": "react countries app",
+        "description": "connects an api to a fully designed front end page",
+        "categories": [
+            "Front-End Development"
+        ],
+        "technologies": [
+            "React.js",
+            "Bootstrap CSS",
+            "Axios",
+            "API's"
+        ],
+        "images": [
+            {
+                "caption": "SS1",
+                "url": "/images/ccImage.jpg"
+            }
+        ],
+        "links": [
+            {
+                "title": "website",
+                "url": "https://react-giphy.web.app"
+            }
+        ],
+        "date": "2024",
+        "github": "https://github.com/n00222605/RESTcountries"
+    }
+]

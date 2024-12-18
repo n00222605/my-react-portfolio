@@ -1,0 +1,67 @@
+/* projectsIndex.css */
+
+/* Set the background color for the entire page */
+.projects-container {
+    background-color: #f22b61;
+    /* Same background color as the rest of the app */
+    padding-bottom: 2rem;
+    /* Padding for bottom spacing */
+}
+
+/* Flex container to wrap project cards */
+.projects-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    /* Spacing between cards */
+}
+
+/* Ensure each grid item is centered */
+.project-grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Vertically align the cards */
+}
+
+/* Adjust the project card styling */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    /* Set a fixed height for the card */
+    width: 100%;
+    /* Make card take full width within grid item */
+    max-width: 350px;
+    /* Ensure all cards have the same max-width */
+    background-color: transparent;
+    /* Transparent background */
+    box-shadow: none;
+    /* Remove box shadow */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+/* Styling for the back button */
+.back-button {
+    margin-bottom: 2rem;
+}
+
+/* Project title styling */
+.project-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f22b61;
+}
+
+/* Project tech stack styling */
+.project-tech-stack {
+    margin-top: 1rem;
+}
+
+/* Adjust chip styling for tech stack */
+.project-chip {
+    margin: 5px;
+}
